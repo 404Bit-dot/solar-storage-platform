@@ -23,6 +23,7 @@ public class ModbusSupportService {
     private long lastHeartbeat = 0;
     private static final long HEARTBEAT_INTERVAL = 30000; // 30秒
 
+
     @PostConstruct
     public void init() {
         connect();

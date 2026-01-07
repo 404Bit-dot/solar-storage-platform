@@ -1,0 +1,10 @@
+server:
+  port: 12000
+
+spring:
+  application:
+    name: solar-storage-platform
+
+knife4j:
+  enable: true
+  production: false
